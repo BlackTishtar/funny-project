@@ -8,8 +8,8 @@ find the sum of the even-valued terms. */
 
 int main(){
     const int MAX_VALUE = 4000000;
-    int prev_term = 0,  next_term = 1; //next & previous term
-    int new_term = 0;
+    unsigned int prev_term = 0,  next_term = 1; //next & previous term
+    unsigned int new_term = 0;
     int sum = 0; // for sum of the even-value 
     
     while(new_term <= MAX_VALUE){
